@@ -1,0 +1,2 @@
+import { AppShell } from "@/components/shared/app-shell";
+export default function ProjectDetail(){return <AppShell title="รายละเอียดโปรเจกต์"><div className="grid gap-3 md:grid-cols-4"><div className="rounded bg-white p-4 shadow">รายรับ</div><div className="rounded bg-white p-4 shadow">รายจ่าย</div><div className="rounded bg-white p-4 shadow">กำไรสุทธิ</div><div className="rounded bg-white p-4 shadow">การใช้ Budget</div></div></AppShell>}
